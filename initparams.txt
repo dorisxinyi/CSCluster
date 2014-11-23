@@ -1,0 +1,14 @@
+%{
+    @description of initparams
+    @initparams.fig: whether show figure
+    @initparams.showtree: whether show tree topology
+    @initparams.length: the length of a rectangle field
+    @initparams.width: the width of a rectangle field
+    @initparams.N: the number of nodes
+    @initparams.rho: the compressive ratio of compressive sensing (# of original data / # of projections required)
+    @initparams.unit: the unit of rectangle field
+    @initparams.range = initparams.unit * sqrt(2): the transmission range of two nodes
+    @initparams.M = round(initparams.N / initparams.rho): the number of projections required by compressive sensing
+    @initparams.lambda = initparams.N / (initparams.len * initparams.wide): the number of nodes distributed in a area of 1 unit square
+    @initparams.num_sim = 50: the number of rounds to simulate
+%}
